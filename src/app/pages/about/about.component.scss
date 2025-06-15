@@ -1,0 +1,66 @@
+// .hero {
+//     background: linear-gradient(to right, #6a11cb, #2575fc);
+//     color: white;
+//     text-align: center;
+//     padding: 60px 20px;
+
+//     h1 {
+//         font-size: 3em;
+//         margin-bottom: 10px;
+//     }
+
+//     p {
+//         font-size: 1.2em;
+//     }
+// }
+
+// .mission-vision {
+//     display: flex;
+//     justify-content: space-around;
+//     margin: 40px 0;
+
+//     .card {
+//         width: 45%;
+//     }
+// }
+
+// .section-title {
+//     text-align: center;
+//     margin: 40px 0 20px;
+//     font-size: 2em;
+//     color: #333;
+// }
+
+// .team {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     gap: 20px;
+
+//     .team-card {
+//         width: 250px;
+//         transition: transform 0.3s ease;
+
+//         &:hover {
+//             transform: scale(1.05);
+//         }
+//     }
+
+//     .avatar {
+//         background-size: cover;
+//         background-position: center;
+
+//         &.male {
+//             background-image: url('https://randomuser.me/api/portraits/men/1.jpg');
+//         }
+
+//         &.female {
+//             background-image: url('https://randomuser.me/api/portraits/women/1.jpg');
+//         }
+//     }
+// }
+
+// mat-horizontal-stepper {
+//     margin: 40px auto;
+//     max-width: 800px;
+// }

@@ -1,0 +1,52 @@
+.mission {
+    padding: 4rem 2rem;
+    background-color: #f9fafb;
+    color: #1f2937;
+
+    .mission-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+    }
+
+    .mission-text {
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+    }
+
+    .mission-visual {
+        img {
+            width: 100%;
+            max-width: 400px;
+            animation: float 6s ease-in-out infinite;
+        }
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
